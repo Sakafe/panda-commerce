@@ -1,0 +1,11 @@
+.text-danger {
+color: green!important;
+}
+.lorem{
+    border: 1px solid gray;
+    background-color:rosybrown;
+}
+mark {
+    background-color: rgb(194, 0, 168);
+    color: black;
+}

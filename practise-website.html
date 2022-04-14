@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        #img1{
+            margin-top: 100px !important;
+        }
+        h1{
+            text-align: center;
+        }
+       p{
+           text-align: justify;
+           font-size:19px;
+       }
+       #btn{
+      position: relative;
+      left: 300px;
+       }
+       #one{
+           height: 3rem;
+           background-color:rgb(228, 228, 228) ; 
+           margin-top: 100px;
+       }
+       #img2{
+           position: relative;
+           left: 120px;
+       }
+      
+    </style>
+</head>
+<body>
+<div class="container">
+    <img id="img1" class="d-block mx-auto mb-4" src="images/bootstrap-logo.svg" alt="" style="width: 72px; height: 57px;">
+    <h1 class="display-5 fw-bold">Centered hero</h1>
+    <p class="col-lg-6 mx-auto text-secondary">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p> 
+    <button id="btn" class="btn btn-primary btn-lg px-4 gap-3">primary button</button>
+    <button id="btn" class="btn btn-outline-secondary btn-lg">Secondary</button>
+
+</di<div id="one"></div>v>
+
+<div class="container">
+    <div >
+        <h1 class="display-4 fw-bold mt-5">Centerde screenshot</h1>
+    <p class="col-lg-6 mx-auto text-secondary">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+    <button id="btn" class="btn btn-primary btn-lg px-4 gap-3">primary button</button>
+    <button id="btn" class="btn btn-outline-secondary btn-lg">Secondary</button>
+ <img id="img2" src="images/bootstrap-docs.jpg" class="img-fluid mt-5 border rounded-3 shadow-lg w-75" alt="" style="height: 150px;">
+
+    </div>
+</div>
+
+<div id="one"></div>
+
+<div class="container">
+<div class="row">
+    <div class="col-lg-6">
+<h1 class="display-5 fw-bold mt-5">Responsive left-aligned hero with image</h1>
+<p class="text-secondary">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+<button class="btn btn-primary">primary</button>
+<button class="btn btn-outline-secondary">Default</button>
+    </div>
+</div>
+</div>
+<div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <h5 class="text-white h4">Collapsed content</h5>
+      <span class="text-muted">Toggleable via the navbar brand.</span>
+    </div>
+  </div>
+<br>
+
+
+<div class="navbar bg-dark navbar-dark navbar-expand-sm">
+    <div class="container">
+        <a href="" class="navbar-brand">
+            <img src="images/bootstrap-logo.svg" alt="" style="width: 50px;">
+             Compani Name</a>
+             
+                <ul  class="nav">
+                    <li class="nav-item"><a href="" class="nav-link ">Menu</a></li>
+                    <li class="nav-item"><a href="" class="nav-link ">Menu</a></li>
+                    <li class="nav-item"><a href="" class="nav-link ">Menu</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Menu</a></li>
+                </ul>
+             
+     
+      <span class=" navbar-text"
+       style="color: brown;">demo text</span>
+    </div>
+   </div>
+   <nav class="navbar bg-danger navbar-light navbar-expand-sm fixed-top">
+  <div class="container">
+    <a href="" class="navbar-brand">
+        <img src="images/catbird.jpg" alt="" class="rounded-circle" style="width: 50px;">
+        Compani Name</a>
+        <button class="navbar-toggler" data-bs-target="#mymenu" data-bs-toggle="collapse"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="mymenu">
+    <ul class="navbar-nav me-auto ms-3">
+        <li class="nav-item"><a href="" class="nav-link">Menu 1</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Menu 2</a></li>
+        <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Menu 3</a>
+            <div class="dropdown-menu mt-2 bg-success"  >
+                <a href="" class="dropdown-item">dd item</a>
+                <a href="" class="dropdown-item">dd item</a>
+                <a href="" class="dropdown-item">dd item</a>
+            </div>
+        </li>
+        <li class="nav-item"><a href="" class="nav-link">Menu 4</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Menu 5</a></li>
+    </ul>
+</div>
+    
+       <form action="" class="form-inline mt-2 d-flex">
+        <input type="search" class="form-control ">
+        <button class="btn btn-dark btn-sm">Search</button>
+    </form>
+  </div>
+</nav> <br> <br>
+<button type="button" class="btn btn-outline-success ms-5" data-bs-target="#Mymodal" data-bs-toggle="modal">click me</button>
+<div class="modal fade" id="Mymodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>This is demo Heading</h2>
+                <button class="close" data-bs-dismiss="modal">&times;</button>
+            </div>
+        <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nisi sequi obcaecati, omnis est officiis minima totam quia. Repellat tenetur ad ratione, velit possimus debitis deleniti amet aut ullam nisi consequatur molestiae itaque illum nihil.</p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-danger" data-bs-dismiss="modal">Back</button>
+        </div>
+        </div>
+    </div>
+</div>
+<br><br> 
+<h2>carousel</h2>
+<div id="mycarousel" class="carousel slide d-none d-sm-block" data-bs-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#mycarousel" data-bs-slide-to="1" class="active"></li>
+    </ul>
+    <div class="carousel-inner">
+       <div class="carousel-item active">
+           <img src="images/sun.jpg" alt="" class="img-fluid w-100">
+       </div>
+       <div class="carousel-item">
+        <img src="images/tree.jpg" alt="" class="img-fluid w-100">
+        <div class="carousel-caption">
+            <h2>demo heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus veritatis, consequatur commodi optio mollitia fugiat.</p>
+        </div>
+    </div>
+    </div>
+    <a href="#mycarousel" class="carousel-control-prev" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+    <a href="#mycarousel" class="carousel-control-next" data-bs-slide="next"><span class="carousel-control-next-icon"></span></a>
+</div>
+<br>
+<!--
+<div  class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/sun.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/tree.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/organic.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    
+  </div>-->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+   <script>
+       $(function(){
+           $('.carousel').carousel({
+               interval:1000
+           });
+       }
+
+       )
+   </script>
+</body>
+</html>
